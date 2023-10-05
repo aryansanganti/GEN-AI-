@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Garden of Eat’n</title>
+    <link rel="stylesheet" href="style.css"> <!-- Add your CSS file here -->
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#reservations">Reservations</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="logo">
+            <img id="logo" src="logo.jpg" alt="[Restaurant Name] Logo">
+        </div>
+        <div class="cta-button">
+            <a href="#reservations">Make a Reservation</a>
+        </div>
+    </header>
+
+    <!-- Welcome Section -->
+    <section id="home">
+        <div class="welcome-text">
+            <h1>Welcome to The Garden of Eat’n</h1>
+            <h2>Where Flavor Meets Elegance!</h2>
+            <p>Experience Culinary Delights in a Cozy Atmosphere</p>
+        </div>
+        <div class="welcome-image">
+            <img id="interior" src="interior.jpg" alt="Restaurant Interior">
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+<section id="menu">
+    <h2>Menu</h2>
+    <div class="menu-item">
+        <img id="menu_Items" src="_Paneer_Tikka_.jpg" alt="#" >
+        <h3>Paneer Tikka</h3>
+        <p>Marinated and grilled cottage cheese skewers served with mint chutney.</p>
+        <span>Rs199</span>
+    </div>
+    <div class="menu-item">
+        <img id="menu_Items" src="chicken biryani.jpg" alt="#">
+        <h3>Chicken Biryani</h3>
+        <p>Fragrant basmati rice cooked with succulent chicken and aromatic spices.</p>
+        <span>Rs249</span>
+    </div>
+    <div class="menu-item">
+        <img id="menu_Items" src="butter chicken.jpg" alt="">
+        <h3>Butter Chicken</h3>
+        <p>Tender chicken pieces simmered in a creamy tomato sauce, served with naan.</p>
+        <span>Rs299</span>
+    </div>
+
+    <div class="menu-item">
+        <img id="menu_Items" src="dis4.jpg" alt="#">
+        <h3>Vegetable Korma</h3>
+        <p>Assorted vegetables cooked in a rich and creamy coconut sauce.</p>
+        <span>Rs 249</span>
+    </div>
+    <div class="menu-item">
+        <img id="menu_Items" src="dis5.jpg" alt="#">
+        <h3>Lamb Rogan Josh</h3>
+        <p>Slow-cooked tender pieces of lamb in a flavorful curry sauce.</p>
+        <span>Rs 149</span>
+    </div>
+    <div class="menu-item">
+        <img id="menu_Items" src="dis6.jpg" alt="#">
+        <h3>Tandoori Roti</h3>
+        <p>Traditional Indian flatbread baked in a tandoor oven.</p>
+        <span>Rs89</span>
+    </div>
+    <!-- Add more menu items here -->
+</section>
+
+
+        <!-- Add your menu items and descriptions here -->
+    </section>
+
+    <!-- Reservations Section -->
+<section id="reservations">
+    <div class="reservation-info">
+        <h2>Make a Reservation</h2>
+        <p>We look forward to serving you. Please fill out the form below to reserve a table.</p>
+    </div>
+    <div class="reservation-form">
+        <form action="reservation.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time" required>
+
+            <label for="party-size">Party Size:</label>
+            <input type="number" id="party-size" name="party-size" required>
+
+            <button type="submit">Reserve Now</button>
+        </form>
+    </div>
+</section>
+<!-- Payments Section -->
+<section id="payments">
+    <div class="payments-info">
+        <h2>Secure Payments</h2>
+        <p>We offer convenient and secure payment options for your dining experience.</p>
+    </div>
+    <div class="payment-methods">
+        <div class="payment-card">
+            <img src="creditcard.png" alt="Credit Card Icon">
+            <h3>Credit/Debit Card</h3>
+        </div>
+        <div class="payment-card">
+            <img src="paypal.png" alt="PayPal Icon">
+            <h3>PayPal</h3>
+        </div>
+        <div class="payment-card">
+            <img src="UPIicon.png" alt="Apple Pay Icon">
+            <h3>UPI Pay</h3>
+        </div>
+    </div>
+</section>
+
+
+    <!-- About Us Section -->
+<section id="about-us">
+    <div class="about-info">
+        <h2>About Us</h2>
+        <p>Welcome to [Restaurant Name]! We are passionate about serving delicious meals and providing a memorable dining experience.</p>
+    </div>
+    <div class="about-history">
+        <h3>Our History</h3>
+        <p>Established in [Year], [Restaurant Name] has been a culinary destination for food lovers. We take pride in our rich history of serving authentic and flavorful dishes.</p>
+    </div>
+    <div class="about-team">
+        <h3>Meet Our Team</h3>
+        <p>Our dedicated team of chefs, servers, and staff is committed to making your dining experience exceptional. We believe in the power of good food to bring people together.</p>
+    </div>
+</section>
+
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <!-- Add contact information and a contact form here -->
+        <!-- Contact Section -->
+<section id="contact">
+    <div class="contact-info">
+        <h2>Contact Us</h2>
+        <p>Address: 123 Main Street, City, Country</p>
+        <p>Phone: +1 (555) 555-5555</p>
+        <p>Email: info@example.com</p>
+    </div>
+    <div class="contact-form">
+        <h2>Send us a Message</h2>
+        <form action="contact.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</section>
+<!-- Promotions Section -->
+<section id="promotions">
+    <div class="promotion-info">
+        <h2>Special Promotions</h2>
+        <p>Enjoy our current promotions and discounts for a limited time!</p>
+    </div>
+    <div class="promotion-cards">
+        <div class="promotion-card">
+            <img id="pr" src="dis1.jpg" alt="Promotion 1">
+            <h3>Happy Hour</h3>
+            <p>Join us for Happy Hour from 4 PM to 7 PM and get 50% off on selected drinks.</p>
+        </div>
+        <div class="promotion-card">
+            <img id="pr" src="dis2.jpg" alt="Promotion 2">
+            <h3>Weekend Special</h3>
+            <img id="pr" src="dis3.jpg" alt="Promotion 2">
+            <p>Enjoy a special weekend menu with a 3-course meal for just $25 per person.</p>
+        </div>
+        <!-- Add more promotion cards here -->
+    </div>
+</section>
+
+
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2023 [Restaurant Name]. All rights reserved.</p>
+    </footer>
+</body>
+</html>
